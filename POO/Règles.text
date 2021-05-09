@@ -1,0 +1,41 @@
+
+ 	Gerer le nom du joueur correctement
+ 	Player : entre 200 - 250
+    Dragon : entre 200 - 250
+    
+    - Afficher les points de vies initiaux des 2 personnages
+    
+    RUN 
+    [
+    - Demarrage du jeu
+    	- A chaque tour : 
+        	- Tirer un chiffre aleatoire ( 0 ou 1 )
+            - Si 1 : Le joueur attaque
+            	Il doit faire entre 35 - 55 point de vie au dragon
+            - sinon : Le dragon attaque
+        		Il doit faire entre 35 - 55 point de vie au joueur
+            - A la fin du tour : Afficher l'etat du jeu ( qui a attaqué et de combien de degat)
+        - Si un des joueurs meurt : le jeu est terminé 
+        - afficher le vainqueur
+    ]
+
+Le type de personnage influe sur les degats du joueur
+	TYPE_ANGEL = 35 - 55 degats
+    TYPE_FIGHTER = 25 - 45
+    TYPE_WIZARD = 30 - 50
+    
+Afficher la bonne image du vainqueur en fonction du type de joueur
+    
+Gestion de la difficulté
+La difficulté influence les degats du monstre
+	Facile : 35 - 55
+    Normal : 48 - 60
+    Difficile : 45 - 63
+    
+La difficulté influence les HP du monstre
+	Facile : 200 - 250 - Bone
+    Normal : 225 - 275 - Green
+    Difficile : 250 - 300 - Black
+    
+Afficher la bonne image du monstre en fonction de la difficulté
+    
